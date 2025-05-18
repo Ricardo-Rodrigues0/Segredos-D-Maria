@@ -1,0 +1,115 @@
+/* ===== Scrollbar Personalizado ===== */
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  border: 3px solid #035755; /* Verde claro */
+}
+
+.navbar-custom {
+    background-color: #035755;
+    /* Cor de fundo igual da imagem */
+}
+
+.navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+    margin: 0 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    color: #09a09d;
+}
+
+.navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.categoria-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 20px;
+    padding: 30px 20px;
+    text-align: center;
+    transition: transform 0.3s;
+    height: 100%;
+}
+
+.categoria-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.categoria-img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 20px;
+    background-color: #0b4c3d;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.btn-descobrir {
+    margin-top: 15px;
+    border-radius: 25px;
+}
+
+.descricao-topo {
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: contain;
+    padding: 1rem;
+}
+
+/* Estilo links do menu rodapé */
+.footer-link {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    padding: 0 12px;
+    transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+    color: #09a09d;
+    text-decoration: underline;
+}
+
+/* Remove underline padrão dos links sociais */
+a {
+    text-decoration: none !important;
+}
+
+
+/* Estilo base */
+.social-link {
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+/* Ícone também herda o estilo */
+.social-link i {
+    margin-right: 6px;
+    transition: color 0.3s ease;
+}
+
+/* Hover em todo o link: ícone e texto ficam amarelos */
+.social-link:hover {
+    color: #09a09d;
+}
+
+.social-link:hover i {
+    color: #03817f;
+}
